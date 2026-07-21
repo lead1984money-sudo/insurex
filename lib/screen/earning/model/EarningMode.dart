@@ -1,0 +1,4 @@
+enum EarningMode {
+  view,
+  edit,
+}

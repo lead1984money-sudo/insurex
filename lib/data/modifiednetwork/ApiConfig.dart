@@ -1,0 +1,53 @@
+
+class ApiConfig {
+  static const String baseUrl = 'https://insurex.tankinfotech.com/api'; // 👈 Replace with your real base URL
+  static const String requestOTPUrl = '/auth/signup/request-otp';
+  static const String verifyUrl = '/auth/signup/verify';
+  static const String pdfUploadUrl = '/node/extract';
+  static const String policyListUrl = '/sr-masters/list';
+  static const String downloadPolicyUrl = '/sr-masters/file-url';
+  static const String planListUrl = '/plans/customer-planlist';
+  static const String paymentCompleteUrl = '/plans/payment-complete';
+  static const String createOrderUrl = '/create-order';
+  static const String buyUrl = '/plans/buy';
+  static const String getUploadUrl = '/mobile/plans/detail';
+  static const String businessDetailsUrl = '/sr-masters/log-detail';
+  static const String menuListUrl = '/masters/services/app-menu';
+  static const String folderCreateUrl = '/mobile/folders/create';
+  static const String getAllDocumentUrl = '/mobile/documents/all';
+  static const String renameFolderUrl = '/mobile/folders/rename';
+  static const String deleteFolderUrl = '/mobile/folders/delete';
+  static const String getDocumentListUrl = '/mobile/documents/list';
+  static const String uploadDocumentUrl = '/mobile/documents/create';
+  static const String mastersListUrl = '/masters/list';
+  static const String deleteDocumentUrl = '/mobile/documents/delete';
+  static const String partnerCreateUrl = '/mobile/partners/create';
+  static const String earningCreateUrl = '/mobile/earnings/create';
+  static const String searchPoliciesUrl = '/mobile/earnings/search-policies';
+  static const String partnerListUrl = '/mobile/partners/list';
+  static const String earningsListUrl = '/mobile/earnings/list';
+  static const String earningsUpdateUrl = '/mobile/earnings/update';
+  static const String leadCreateUrl = '/mobile/leads/create';
+  static const String leadListUrl = '/mobile/leads/list';
+  static const String leadDeleteUrl = '/mobile/leads/delete';
+  static const String aboutUsUrl = '/mobile/legal/detail';
+  static const String privacyUrl = '/mobile/legal/privacy';
+  static const String termUrl = '/mobile/legal/terms';
+  static const String contactSupportUrl = '/mobile/support/contact';
+  static const String followupDetailsUrl = '/mobile/leads/followups/detail';
+  static const String followupCreateUrl = '/mobile/leads/followups/create';
+  static const String reminderListUrl = '/mobile/reminders/list';
+  static const String reminderTypeUrl = '/mobile/reminders/form-masters';
+  static const String reminderCreateUrl = '/mobile/reminders/create';
+  static const String reminderUpdateUrl = '/mobile/reminders/update';
+  static const String reminderDeleteUrl = '/mobile/reminders/delete';
+  static const String documentUploadUrl = '/mobile/leads/documents/create';
+  static const String transactionListUrl = '/plans/transactions/list';
+  static const String notificationListUrl = '/mobile/notifications/inbox/list';
+  static const String notificationMarkReadUrl = '/mobile/notifications/inbox/mark-read';
+  static const String profilePictureUpload = '/api/users/profile/picture';
+  static const String profilePersonalUpdate = '/users/profile/personal';
+  static const String profileAddressUpdate = '/users/profile/address';
+  static const String profileBankUpdate = '/users/profile/bank';
+
+}
